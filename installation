@@ -41,3 +41,8 @@ sudo apt-get install -y kubectl
 
 snap install kubectl --classic
 kubectl version --client
+
+
+
+systemctl restart kubelet
+systemctl demon-reload
